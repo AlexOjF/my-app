@@ -1,0 +1,28 @@
+/* CSS */
+.CreateTodoButton {
+  background-color: #222831;
+  border-radius: 100px;
+  box-shadow: rgba(187, 144, 44, 0.15) 0 -25px 18px -14px inset,rgba(187, 144, 44, 0.15) 0 1px 2px,rgba(187, 144, 44, 0.15) 0 2px 4px,rgba(187, 144, 44, 0.15) 0 4px 8px,rgba(187, 144, 44, 0.15) 0 8px 16px,rgba(187, 144, 44, 0.15) 0 16px 32px;
+  color: #ff321a;
+  cursor: pointer;
+  display: inline-block;
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  font-family: 'Silkscreen', cursive;  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 1;
+}
+
+.CreateTodoButton:hover {
+  box-shadow: #ff321A 0 -15px 9px -7px inset,#ff321A 0 1px 1px,#ff321A 0 1px 2px,#ff321A 0 2px 4px,#ff321A 0 4px 8px,#ff321A 0 8px 16px;
+  transform: scale(1.05) rotate(-1deg);
+
+}
